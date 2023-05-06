@@ -49,6 +49,10 @@ export class FormComponent implements OnInit {
     this.result = [];
     for (let i = 0; i < loopAmount; i++) {
       let index = Math.floor(Math.random() * this.total);
+      //find duplicates
+      if (this.result.findIndex((x) => x === this.masterData[index]) >= 0) {
+        index = Math.floor(Math.random() * this.total);
+      }
       this.result.push(this.masterData[index]);
     }
     this.load = false;
