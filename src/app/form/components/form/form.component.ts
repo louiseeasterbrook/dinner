@@ -29,23 +29,14 @@ export class FormComponent implements OnInit {
   createArray() {
     this.dinnerData.forEach((x) => {
       this.total += x.Weight;
-      if (x.Weight == 1) {
-        this.masterData.push(x.Name);
-        return;
-      }
-      if (x.Weight == 2) {
-        this.masterData.push(x.Name);
-        this.masterData.push(x.Name);
-        return;
-      }
-      if (x.Weight == 4) {
-        this.masterData.push(x.Name);
-        this.masterData.push(x.Name);
-        this.masterData.push(x.Name);
-        this.masterData.push(x.Name);
-        return;
-      }
+      this.addOption(x.Name, x.Weight);
     });
+  }
+
+  addOption(name: string, loop: number) {
+    for (let i = 0; i < loop; i++) {
+      this.masterData.push(name);
+    }
   }
 
   submit() {
