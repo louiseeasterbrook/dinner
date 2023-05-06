@@ -8,5 +8,7 @@
 
   <button class="btn" (click)="submit()">Generate</button>
 
-  <p *ngFor="let item of result">{{ item }}</p>
+  <div *ngFor="let item of result">
+    <p>{{ item }}</p>
+  </div>
 </div>

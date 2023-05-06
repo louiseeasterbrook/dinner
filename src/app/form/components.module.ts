@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { FormComponent, ResultComponent } from './components';
+import { FormComponent } from './components';
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [FormComponent, ResultComponent],
+  declarations: [FormComponent,],
   imports: [BrowserModule, MatRadioModule, FormsModule, HttpClientModule],
   providers: [],
-  exports: [FormComponent, ResultComponent],
+  exports: [FormComponent],
   bootstrap: [ComponentsModule],
 })
 export class ComponentsModule {}
