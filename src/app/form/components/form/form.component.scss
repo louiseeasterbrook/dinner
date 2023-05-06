@@ -2,9 +2,9 @@
     background-color: #ffffff;
     padding:20px;
     width: 300px;
-    // width: 100%;
+    max-width: 100%;
     border-radius: 4px;
-    height:500px;
+    height:400px;
     box-shadow: 2px 2px 8px rgba(154, 154, 154, 0.25);
 
     p{
@@ -77,8 +77,16 @@
         margin-bottom: 10px;
     }
 
-
-    // ::ng-deep mat-radio{
-    //     background-color: #D03737;
-    // }
 }
+
+::ng-deep.mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element{
+    background-color: #D03737;
+ }
+
+ ::ng-deep.mat-radio-button.mat-accent .mat-radio-inner-circle{
+    background-color: #D03737;
+ }
+
+ ::ng-deep.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle{
+    border-color: #D03737;
+ }
