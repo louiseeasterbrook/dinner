@@ -1,0 +1,15 @@
+html, body { height: 100%;}
+body { 
+    margin: 0; 
+    padding:0;
+    // font-family: 'Inter', sans-serif; 
+}
+
+.container-outer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #E1F1FF;
+    height: 100vh;
+    padding:30px 15px;
+}

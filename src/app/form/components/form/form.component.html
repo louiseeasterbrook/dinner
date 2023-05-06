@@ -1,0 +1,12 @@
+<div class="form-outer">
+  <p>Number of meals:</p>
+
+  <mat-radio-group class="radio-wrapper" [(ngModel)]="amount">
+    <mat-radio-button [value]="1">1</mat-radio-button>
+    <mat-radio-button [value]="5">5</mat-radio-button>
+  </mat-radio-group>
+
+  <button class="btn" (click)="submit()">Generate</button>
+
+  <p *ngFor="let item of result">{{ item }}</p>
+</div>
