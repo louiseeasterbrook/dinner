@@ -42,18 +42,17 @@ export class FormComponent implements OnInit {
   submit() {
     this.result = [];
     this.load = true;
-    setTimeout(() => this.getResult(this.amount), 1000);
+    setTimeout(() => this.getResult(this.amount), 700);
   }
 
   getResult(loopAmount: number) {
     this.result = [];
-    for (let i = 0; i < loopAmount; i++) {
+    while (this.result.length < loopAmount) {
       let index = Math.floor(Math.random() * this.total);
       //find duplicates
-      if (this.result.findIndex((x) => x === this.masterData[index]) >= 0) {
-        index = Math.floor(Math.random() * this.total);
+      if (this.result.findIndex((x) => x === this.masterData[index]) < 0) {
+        this.result.push(this.masterData[index]);
       }
-      this.result.push(this.masterData[index]);
     }
     this.load = false;
   }

@@ -58,7 +58,7 @@
         },
         {
             "Name":"Shepherds pie",
-            "Weight": 2
+            "Weight": 3
         },
         {
             "Name":"Baked dinner",
@@ -130,7 +130,7 @@
         },
         {
             "Name":"Pie",
-            "Weight": 2
+            "Weight": 3
         },
         {
             "Name":"Falafel",
@@ -190,7 +190,7 @@
         },
         {
             "Name":"Pancakes",
-            "Weight": 2
+            "Weight": 1
         }
     ]
             
