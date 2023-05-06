@@ -36,8 +36,8 @@
         .load{
             width:20px;
             height:20px;
-            border: 2px solid white;
-            border-bottom: none;
+            border-top: 2px solid white;
+            border-bottom: 2px solid white;
             border-radius: 100%;
             -webkit-animation: rotating 1s linear infinite;
             -moz-animation: rotating 1s linear infinite;
@@ -63,8 +63,6 @@
           transform: rotate(360deg);
         }
       }
-
-
 
     button:hover{
         background-color: #b32828;
