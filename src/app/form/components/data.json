@@ -6,19 +6,191 @@
         },
         {
             "Name":"Chicken leak pie",
-            "Weight": 1
+            "Weight": 4
         },
         {
             "Name":"Green curry",
-            "Weight": 1
+            "Weight": 3
         },
         {
             "Name":"Sausages",
-            "Weight": 1
+            "Weight": 2
         },
         {
             "Name":"Sausage rolls",
+            "Weight": 3
+        },
+        {
+            "Name":"Pad thai",
+            "Weight": 4
+        },
+        {
+            "Name":"Nachos",
+            "Weight": 4
+        },
+        {
+            "Name":"Wraps (basil garlic)",
+            "Weight": 4
+        },
+        {
+            "Name":"Tacos",
+            "Weight": 4
+        },
+        {
+            "Name":"Mexican wraps",
+            "Weight": 4
+        },
+        {
+            "Name":"Cheese rice",
+            "Weight": 2
+        },
+        {
+            "Name":"Lasagne",
+            "Weight": 2
+        },
+        {
+            "Name":"Tika Masala stir fry",
+            "Weight": 4
+        },
+        {
+            "Name":"Dhal",
+            "Weight": 3
+        },
+        {
+            "Name":"Shepherds pie",
+            "Weight": 2
+        },
+        {
+            "Name":"Baked dinner",
+            "Weight": 2
+        },
+        {
+            "Name":"Chickpea pumpkin curry",
+            "Weight": 4
+        },
+        {
+            "Name":"Hamburgers",
+            "Weight": 4
+        },
+        {
+            "Name":"Roasted veg salad",
+            "Weight": 2
+        },
+        {
+            "Name":"Chicken Shnitty",
+            "Weight": 3
+        },
+        {
+            "Name":"Paella",
             "Weight": 1
+        },
+        {
+            "Name":"Dumplings",
+            "Weight": 2
+        },
+        {
+            "Name":"Roasted veg couscous",
+            "Weight": 2
+        },
+        {
+            "Name":"Peanut rice",
+            "Weight": 3
+        },
+        {
+            "Name":"Rice paper rolls",
+            "Weight": 1
+        },
+        {
+            "Name":"Nutty brown rice",
+            "Weight": 3
+        },
+        {
+            "Name":"Butter chicken",
+            "Weight": 2
+        },
+        {
+            "Name":"Zucchini slice",
+            "Weight": 3
+        },
+        {
+            "Name":"Chinese noodle stir-fry",
+            "Weight": 3
+        },
+        {
+            "Name":"Satay chicken",
+            "Weight": 3
+        },
+        {
+            "Name":"Persian rice",
+            "Weight": 4
+        },
+        {
+            "Name":"Salmon/veggie pattie",
+            "Weight": 3
+        },
+        {
+            "Name":"Pie",
+            "Weight": 2
+        },
+        {
+            "Name":"Falafel",
+            "Weight": 2
+        },
+        {
+            "Name":"Tandoori tings",
+            "Weight": 3
+        },
+        {
+            "Name":"Mulligatawny",
+            "Weight": 2
+        },
+        {
+            "Name":"Pumpkin soup",
+            "Weight": 2
+        },
+        {
+            "Name":"Potato leek soup",
+            "Weight": 2
+        },
+        {
+            "Name":"Minestrone soup",
+            "Weight": 2
+        },
+        {
+            "Name":"Pesto pasta",
+            "Weight": 1
+        },
+        {
+            "Name":"Enchilada",
+            "Weight": 3
+        },
+        {
+            "Name":"Massaman curry",
+            "Weight": 2
+        },
+        {
+            "Name":"Jack of potatoes",
+            "Weight": 3
+        },
+        {
+            "Name":"Pizza",
+            "Weight": 4
+        },
+        {
+            "Name":"Mexican bowl",
+            "Weight": 4
+        },
+        {
+            "Name":"Stuffed capsicum",
+            "Weight": 2
+        },
+        {
+            "Name":"Vege DELUXE pasta",
+            "Weight": 4
+        },
+        {
+            "Name":"Pancakes",
+            "Weight": 2
         }
     ]
             
