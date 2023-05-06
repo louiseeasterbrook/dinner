@@ -17,6 +17,7 @@ export class FormComponent implements OnInit {
   masterData: string[] = [];
   total: number = 0;
   result: string[] = [];
+  load: boolean = false;
   constructor() {
     this.dinnerData = data;
   }
@@ -48,7 +49,9 @@ export class FormComponent implements OnInit {
   }
 
   submit() {
-    this.getResult(this.amount);
+    this.result = [];
+    this.load = true;
+    setTimeout(() => this.getResult(this.amount), 1000);
   }
 
   getResult(loopAmount: number) {
@@ -57,5 +60,6 @@ export class FormComponent implements OnInit {
       let index = Math.floor(Math.random() * this.total);
       this.result.push(this.masterData[index]);
     }
+    this.load = false;
   }
 }

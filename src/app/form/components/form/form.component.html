@@ -6,9 +6,12 @@
     <mat-radio-button [value]="5">5</mat-radio-button>
   </mat-radio-group>
 
-  <button class="btn" (click)="submit()">Generate</button>
+  <div class="btn" (click)="submit()">
+    <div *ngIf="load" class="load"></div>
+    <span *ngIf="!load">Generate</span>
+  </div>
 
-  <div *ngFor="let item of result">
+  <div *ngFor="let item of result" class="result">
     <p>{{ item }}</p>
   </div>
 </div>
