@@ -1,196 +1,532 @@
 
     [
         {
+            "Id": 1000,
             "Name":"Pasta",
-            "Weight": 4
+            "Weight": 4,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1001,
             "Name":"Chicken leek pie",
-            "Weight": 4
+            "Weight": 4,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1003,
             "Name":"Green curry",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1004,
             "Name":"Sausages",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1005,
             "Name":"Sausage rolls",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1006,
             "Name":"Pad thai",
-            "Weight": 4
+            "Weight": 4,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1007,
             "Name":"Nachos",
-            "Weight": 4
+            "Weight": 4,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1008,
             "Name":"Wraps (basil garlic)",
-            "Weight": 4
+            "Weight": 4,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1009,
             "Name":"Tacos",
-            "Weight": 4
+            "Weight": 4,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1010,
             "Name":"Mexican wraps",
-            "Weight": 4
+            "Weight": 4,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1011,
             "Name":"Cheese rice",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1012,
             "Name":"Lasagne",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1013,
             "Name":"Tikka Masala curry",
-            "Weight": 4
+            "Weight": 4,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1014,
             "Name":"Dhal",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1015,
             "Name":"Shepherds pie",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1016,
             "Name":"Baked dinner",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1017,
             "Name":"Chickpea pumpkin curry",
-            "Weight": 4
+            "Weight": 4,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1018,
             "Name":"Hamburgers",
-            "Weight": 4
+            "Weight": 4,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1019,
             "Name":"Roasted veg salad",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1020,
             "Name":"Chicken Schnitty",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1021,
             "Name":"Paella",
-            "Weight": 1
+            "Weight": 1,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1022,
             "Name":"Dumplings",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1023,
             "Name":"Roasted veg couscous",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1024,
             "Name":"Peanut rice",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1025,
             "Name":"Rice paper rolls",
-            "Weight": 1
+            "Weight": 1,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1026,
             "Name":"Nutty brown rice",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1027,
             "Name":"Butter chicken",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1028,
             "Name":"Zucchini slice",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1029,
             "Name":"Chinese noodle stir-fry",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1030,
             "Name":"Satay chicken",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1032,
             "Name":"Persian rice",
-            "Weight": 4
+            "Weight": 4,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1032,
             "Name":"Salmon/veggie pattie",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1033,
             "Name":"Pie",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1034,
             "Name":"Falafel",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1035,
             "Name":"Tandoori tings",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1036,
             "Name":"Mulligatawny",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1037,
             "Name":"Pumpkin soup",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1038,
             "Name":"Potato leek soup",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1039,
             "Name":"Minestrone soup",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1040,
             "Name":"Pesto pasta",
-            "Weight": 1
+            "Weight": 1,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1041,
             "Name":"Enchiladas",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1042,
             "Name":"Massaman curry",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1043,
             "Name":"Jacket potatoes",
-            "Weight": 3
+            "Weight": 3,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1044,
             "Name":"Pizza",
-            "Weight": 4
+            "Weight": 4,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1045,
             "Name":"Mexican bowl",
-            "Weight": 4
+            "Weight": 4,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1046,
             "Name":"Stuffed capsicum",
-            "Weight": 2
+            "Weight": 2,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1047,
             "Name":"Vege DELUXE pasta",
-            "Weight": 4
+            "Weight": 4,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         },
         {
+            "Id": 1048,
             "Name":"Pancakes",
-            "Weight": 1
+            "Weight": 1,
+            "Effort":1,
+            "Recipe": {
+                "Ingredients":[],
+                "Steps":[],
+                "Notes":[]
+            }
         }
     ]
             
