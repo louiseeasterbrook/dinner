@@ -8,6 +8,8 @@
     />
   </div>
 
+  <p class="noResMessage" *ngIf="!displayList || displayList.length <= 0">no res</p>
+
   <div *ngFor="let item of displayList" class="result">
     <result-bar [text]="item.Name" [id]="item.Id"></result-bar>
   </div>
