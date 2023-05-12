@@ -5,6 +5,8 @@
             "Name":"Pasta",
             "Weight": 4,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -16,6 +18,8 @@
             "Name":"Chicken leek pie",
             "Weight": 4,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -27,6 +31,8 @@
             "Name":"Green curry",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -38,6 +44,8 @@
             "Name":"Sausages",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -49,6 +57,8 @@
             "Name":"Sausage rolls",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -60,6 +70,8 @@
             "Name":"Pad thai",
             "Weight": 4,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -71,6 +83,8 @@
             "Name":"Nachos",
             "Weight": 4,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -82,6 +96,8 @@
             "Name":"Wraps (basil garlic)",
             "Weight": 4,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -93,6 +109,8 @@
             "Name":"Tacos",
             "Weight": 4,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -104,6 +122,8 @@
             "Name":"Mexican wraps",
             "Weight": 4,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -115,9 +135,11 @@
             "Name":"Cheese rice",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": true,
             "Recipe": {
-                "Ingredients":[],
-                "Steps":[],
+                "Ingredients":["3/4 cup brown rice","1 tbsp butter","1 tbsp oil","1 sliced onion","1 red capsicum","1 clove garlic","2 zucchinis","Cheese sauce"],
+                "Steps":["Cook brown rice","Cook butter, oil, onion, capsicum, zucchini and garlic in a pan", "Make cheese sauce","Mix rice, veg and cheese sauce together","Put in baking dish and cook in oven for 30 mins"],
                 "Notes":[]
             }
         },
@@ -126,6 +148,8 @@
             "Name":"Lasagne",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -137,6 +161,8 @@
             "Name":"Tikka Masala curry",
             "Weight": 4,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -148,6 +174,8 @@
             "Name":"Dhal",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -159,6 +187,8 @@
             "Name":"Shepherds pie",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -170,6 +200,8 @@
             "Name":"Baked dinner",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -181,6 +213,8 @@
             "Name":"Chickpea pumpkin curry",
             "Weight": 4,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -192,6 +226,8 @@
             "Name":"Hamburgers",
             "Weight": 4,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -203,6 +239,8 @@
             "Name":"Roasted veg salad",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -214,6 +252,8 @@
             "Name":"Chicken Schnitty",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -225,6 +265,8 @@
             "Name":"Paella",
             "Weight": 1,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -236,6 +278,8 @@
             "Name":"Dumplings",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -247,6 +291,8 @@
             "Name":"Roasted veg couscous",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -258,6 +304,8 @@
             "Name":"Peanut rice",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -269,6 +317,8 @@
             "Name":"Rice paper rolls",
             "Weight": 1,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -280,6 +330,8 @@
             "Name":"Nutty brown rice",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -291,6 +343,8 @@
             "Name":"Butter chicken",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -302,6 +356,8 @@
             "Name":"Zucchini slice",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -313,6 +369,8 @@
             "Name":"Chinese noodle stir-fry",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -324,6 +382,8 @@
             "Name":"Satay chicken",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -335,6 +395,8 @@
             "Name":"Persian rice",
             "Weight": 4,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -346,6 +408,8 @@
             "Name":"Salmon/veggie pattie",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -357,6 +421,8 @@
             "Name":"Pie",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -368,6 +434,8 @@
             "Name":"Falafel",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -379,6 +447,8 @@
             "Name":"Tandoori tings",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -390,6 +460,8 @@
             "Name":"Mulligatawny",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -401,6 +473,8 @@
             "Name":"Pumpkin soup",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -412,6 +486,8 @@
             "Name":"Potato leek soup",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -423,6 +499,8 @@
             "Name":"Minestrone soup",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -434,6 +512,8 @@
             "Name":"Pesto pasta",
             "Weight": 1,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -445,6 +525,8 @@
             "Name":"Enchiladas",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -456,6 +538,8 @@
             "Name":"Massaman curry",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -467,6 +551,8 @@
             "Name":"Jacket potatoes",
             "Weight": 3,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -478,6 +564,8 @@
             "Name":"Pizza",
             "Weight": 4,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -489,6 +577,8 @@
             "Name":"Mexican bowl",
             "Weight": 4,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -500,6 +590,8 @@
             "Name":"Stuffed capsicum",
             "Weight": 2,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -511,6 +603,8 @@
             "Name":"Vege DELUXE pasta",
             "Weight": 4,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
@@ -522,6 +616,8 @@
             "Name":"Pancakes",
             "Weight": 1,
             "Effort":1,
+            "MealType": 1,
+            "HasRecipe": false,
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],

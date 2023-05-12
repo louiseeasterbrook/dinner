@@ -4,19 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { FormComponent } from './components';
+import { RecipePageComponent, SearchPageComponent } from './components';
 import { CommonComponentsModule } from '../common/commonComponents.module';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
-  declarations: [FormComponent],
+  declarations: [RecipePageComponent, SearchPageComponent],
   imports: [
     BrowserModule,
     MatRadioModule,
     FormsModule,
     HttpClientModule,
     CommonComponentsModule,
+    CommonModule,
   ],
   providers: [],
-  exports: [FormComponent],
+  exports: [SearchPageComponent, RecipePageComponent],
 })
-export class GeneratorsModule {}
+export class RecipeModule {}

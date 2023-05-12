@@ -8,6 +8,7 @@ import { CommonModule } from '@angular/common';
 //my modules
 import { GeneratorsModule } from './generator/generator.module';
 import { CommonComponentsModule } from './common/commonComponents.module';
+import { RecipeModule } from './recipe/recipe.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -18,6 +19,7 @@ import { CommonComponentsModule } from './common/commonComponents.module';
     BrowserAnimationsModule,
     CommonModule,
     CommonComponentsModule,
+    RecipeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

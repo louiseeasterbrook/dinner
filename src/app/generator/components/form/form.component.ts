@@ -1,10 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MealData } from 'src/app/Models/mealData';
 const data = require('../../../data.json');
-
-interface DinnerData {
-  Name: string;
-  Weight: number;
-}
 
 @Component({
   selector: 'app-form',
@@ -13,7 +9,7 @@ interface DinnerData {
 })
 export class FormComponent implements OnInit {
   amount: number = 1;
-  dinnerData: DinnerData[];
+  dinnerData: MealData[];
   masterData: string[] = [];
   total: number = 0;
   result: string[] = [];
