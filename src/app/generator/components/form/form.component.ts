@@ -24,8 +24,10 @@ export class FormComponent implements OnInit {
 
   createArray() {
     this.dinnerData.forEach((x) => {
-      this.total += x.Weight;
-      this.addOption(x.Name, x.Weight);
+      if (x.MealType === 1) {
+        this.total += x.Weight;
+        this.addOption(x.Name, x.Weight);
+      }
     });
   }
 
@@ -38,7 +40,7 @@ export class FormComponent implements OnInit {
   submit() {
     this.result = [];
     this.load = true;
-    setTimeout(() => this.getResult(this.amount), 700);
+    setTimeout(() => this.getResult(this.amount), 500);
   }
 
   getResult(loopAmount: number) {

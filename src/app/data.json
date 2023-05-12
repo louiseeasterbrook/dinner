@@ -178,7 +178,7 @@
             "HasRecipe": true,
             "Recipe": {
                 "Ingredients":["1 tbls coconut oil","4 cloves garlic","2 inch ginger","1 tsp tumeric","1-2 serrano peppers","1 tsp cumin", "1/2 tsp indian chilli powder (1 tsp norm)","2 tsp curry powder","1 tsp garam masala","1 cup red lentils","2 cups vegetable broth","1 can crushed tomatoes","1 can coconut milk"," 3 tbls almond butter","1/2 lemon juice", "coriander"],
-                "Steps":["Rinse the lentils","In large saucepan cook oil, garlic, ginger, tumeric and peppers (2 mins)","Add cumin, coriander, chilli powder, curry powder and garam masala - cook 30-60s","Add vegetable broth, lentils and crushed tomatoes. Cook on low heat for 20-25 mins with lid","Add coconut milk and almond butter - cook until thick and creamy","stir in coriander and lemon juice"],
+                "Steps":["Rinse the lentils","In large saucepan cook oil, garlic, ginger, tumeric and peppers (2 mins)","Add cumin, coriander, chilli powder, curry powder and garam masala - cook 30-60s","Add vegetable broth, lentils and crushed tomatoes. Cook on low heat for 20-25 mins with lid","Add coconut milk and almond butter - cook until thick and creamy","Stir in coriander and lemon juice"],
                 "Notes":[]
             }
         },
@@ -399,7 +399,7 @@
             "HasRecipe": true,
             "Recipe": {
                 "Ingredients":["1 brown onion","1 tsp ginger","1 tsp cumin seeds","1 tsp sweet paprika","2 green cardamon pods","1 cinnamon pod", "1 tsp saffron threads","1.5 cups white rice","1 sweet potato cubed","2.25 vegetable stock","1 tbsp pomegranate molasses","1 bunch broccolini","nuts (pistachio, macadamia)"],
-                "Steps":["Add onion and ginger in pan - 5 mins","Add cumin, paprika, cardamon, cinnamon, saffron - 1 min","Add rice, stock, sweet potato and pomegranate molasses - bring to boil","steam broccolini and toast nuts"],
+                "Steps":["Add onion and ginger in pan - 5 mins","Add cumin, paprika, cardamon, cinnamon, saffron - 1 min","Add rice, stock, sweet potato and pomegranate molasses - bring to boil","Steam broccolini and toast nuts"],
                 "Notes":[]
             }
         },
@@ -621,6 +621,32 @@
             "Recipe": {
                 "Ingredients":[],
                 "Steps":[],
+                "Notes":[]
+            }
+        },
+        {
+            "Id": 1049,
+            "Name":"Baba Ganoush",
+            "Weight": 0,
+            "Effort":2,
+            "MealType": 3,
+            "HasRecipe": true,
+            "Recipe": {
+                "Ingredients":["3 large eggplants","1/2 cup olive oil","1/2 cup tahini","2 cloves garlic","1/2 cup lemon juice","1 tsp salt"," 1/2 tsp pepper"],
+                "Steps":["Stab eggplants and spray with oil","Put in oven at 180 degrees for 30-45 mins","Remove eggplant skin and strain water out of eggplants","Add all Ingredients to a bowl and mix - gradually add oil and tahini"],
+                "Notes":[]
+            }
+        },
+        {
+            "Id": 1050,
+            "Name":"Crack",
+            "Weight": 0,
+            "Effort":3,
+            "MealType": 3,
+            "HasRecipe": true,
+            "Recipe": {
+                "Ingredients":["Salada biscuits (3x4)","200g butter","185g (1 cup) brown sugar","1 tsp vanilla essence","200g dark chocolate (cooking choc)","Roasted nuts"],
+                "Steps":["Pre-heat oven to 180 degrees - line tray with foil, then baking paper, then saladas","In saucepan melt butter and sugar at moderate heat. After 5 mins add vanilla and a pinch of salt","Pour toffee over saladas and smooth with spatula","Put in oven to darken toffee for 25 mins","Add chopped choc on top to melt, then spread and add any extra toppings"],
                 "Notes":[]
             }
         }
