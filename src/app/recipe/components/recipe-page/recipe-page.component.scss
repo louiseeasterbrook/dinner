@@ -1,0 +1,35 @@
+@import "../../../../styles.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+
+  mat-icon {
+    cursor: pointer;
+  }
+}
+
+.ing-wrapper {
+  background-color: $background-grey;
+  padding: 14px;
+  border-radius: 4px;
+
+  ul {
+    margin: 0;
+    padding: 10px 20px;
+
+    li {
+      padding-bottom: 6px;
+    }
+  }
+}
+
+ol {
+  margin: 0;
+  padding: 10px 0 0 35px;
+  li {
+    padding-bottom: 6px;
+  }
+}
