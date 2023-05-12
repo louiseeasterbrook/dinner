@@ -1,14 +1,15 @@
-html, body { height: 100%;}
-body { 
-    margin: 0; 
-    padding:0;
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.container-outer{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    background-color: #515151;
-    height: 100vh;
-    padding-top:15px;
+.app-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

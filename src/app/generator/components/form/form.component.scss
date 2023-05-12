@@ -1,11 +1,5 @@
-.form-outer {
-  background-color: #ffffff;
-  padding: 20px;
-  width: 300px;
-  max-width: 100%;
-  border-radius: 4px;
-  height: 400px;
-  box-shadow: 2px 2px 8px rgba(154, 154, 154, 0.25);
+@import "../../../../styles.scss";
+
 
   p {
     margin: 0;
@@ -22,7 +16,7 @@
     width: 100%;
     outline: none;
     border: none;
-    background-color: #d03737;
+    background-color: $neutral-blue;
     color: #ffffff;
     cursor: pointer;
     border-radius: 4px;
@@ -36,6 +30,7 @@
     .load {
       width: 20px;
       height: 20px;
+      border: 2px solid transparent;
       border-top: 2px solid white;
       border-bottom: 2px solid white;
       border-radius: 100%;
@@ -74,17 +69,17 @@
     padding: 14px;
     margin-bottom: 10px;
   }
-}
+
 
 ::ng-deep.mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element {
-  background-color: #d03737;
+  background-color: $neutral-blue;
 }
 
 ::ng-deep.mat-radio-button.mat-accent .mat-radio-inner-circle {
-  background-color: #d03737;
+  background-color: $neutral-blue;
 }
 
 ::ng-deep.mat-radio-button.mat-accent.mat-radio-checked
   .mat-radio-outer-circle {
-  border-color: #d03737;
+  border-color: $neutral-blue;
 }

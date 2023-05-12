@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-const data = require('../data.json');
+const data = require('../../../data.json');
 
 interface DinnerData {
   Name: string;
