@@ -1,5 +1,14 @@
-<div class="page-container">
-  <h3>Recipe Name</h3>
+<div *ngIf="mealData" class="page-container">
+  <mat-icon (click)="goBack()">keyboard_backspace</mat-icon>
+  <h3>{{ mealData.Name }}</h3>
+
+  <ul>
+    <li *ngFor="let ing of mealData?.Recipe?.Ingredients">{{ ing }}</li>
+  </ul>
+
+  <ol>
+    <li *ngFor="let step of mealData?.Recipe?.Steps">{{ step }}</li>
+  </ol>
 
   <!-- <div *ngFor="let item of mealList" class="result">
       <result-bar [text]="item.Name" [id]="item.Id"></result-bar>

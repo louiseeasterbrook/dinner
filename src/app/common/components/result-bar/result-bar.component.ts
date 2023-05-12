@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'result-bar',
@@ -10,7 +11,14 @@ export class ResultBarComponent implements OnInit {
   @Input() hasRecipe: boolean = false;
   @Input() id: number = 0;
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit(): void {}
+
+  clicked() {
+    if(!this.id){
+      return
+    }
+    this.router.navigateByUrl(`recipe/${this.id}`);
+  }
 }

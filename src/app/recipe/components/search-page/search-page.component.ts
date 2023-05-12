@@ -19,6 +19,6 @@ export class SearchPageComponent implements OnInit {
 
   getMealsWithRecipes() {
     this.mealList = this.mealData.filter((meal) => meal.HasRecipe === true);
-    console.log(this.mealList);
+    console.log('see what we got ', this.mealList);
   }
 }

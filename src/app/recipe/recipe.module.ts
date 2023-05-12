@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { RecipePageComponent, SearchPageComponent } from './components';
 import { CommonComponentsModule } from '../common/commonComponents.module';
 import { CommonModule } from '@angular/common';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [RecipePageComponent, SearchPageComponent],
@@ -17,6 +18,7 @@ import { CommonModule } from '@angular/common';
     HttpClientModule,
     CommonComponentsModule,
     CommonModule,
+    MatIconModule,
   ],
   providers: [],
   exports: [SearchPageComponent, RecipePageComponent],
