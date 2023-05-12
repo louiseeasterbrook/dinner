@@ -175,10 +175,10 @@
             "Weight": 3,
             "Effort":1,
             "MealType": 1,
-            "HasRecipe": false,
+            "HasRecipe": true,
             "Recipe": {
-                "Ingredients":[],
-                "Steps":[],
+                "Ingredients":["1 tbls coconut oil","4 cloves garlic","2 inch ginger","1 tsp tumeric","1-2 serrano peppers","1 tsp cumin", "1/2 tsp indian chilli powder (1 tsp norm)","2 tsp curry powder","1 tsp garam masala","1 cup red lentils","2 cups vegetable broth","1 can crushed tomatoes","1 can coconut milk"," 3 tbls almond butter","1/2 lemon juice", "coriander"],
+                "Steps":["Rinse the lentils","In large saucepan cook oil, garlic, ginger, tumeric and peppers (2 mins)","Add cumin, coriander, chilli powder, curry powder and garam masala - cook 30-60s","Add vegetable broth, lentils and crushed tomatoes. Cook on low heat for 20-25 mins with lid","Add coconut milk and almond butter - cook until thick and creamy","stir in coriander and lemon juice"],
                 "Notes":[]
             }
         },
@@ -396,10 +396,10 @@
             "Weight": 4,
             "Effort":1,
             "MealType": 1,
-            "HasRecipe": false,
+            "HasRecipe": true,
             "Recipe": {
-                "Ingredients":[],
-                "Steps":[],
+                "Ingredients":["1 brown onion","1 tsp ginger","1 tsp cumin seeds","1 tsp sweet paprika","2 green cardamon pods","1 cinnamon pod", "1 tsp saffron threads","1.5 cups white rice","1 sweet potato cubed","2.25 vegetable stock","1 tbsp pomegranate molasses","1 bunch broccolini","nuts (pistachio, macadamia)"],
+                "Steps":["Add onion and ginger in pan - 5 mins","Add cumin, paprika, cardamon, cinnamon, saffron - 1 min","Add rice, stock, sweet potato and pomegranate molasses - bring to boil","steam broccolini and toast nuts"],
                 "Notes":[]
             }
         },
