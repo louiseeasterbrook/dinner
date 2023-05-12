@@ -9,7 +9,7 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-$neutral-blue: #33445C;
+$neutral-blue: #33445c;
 
 p,
 h1 {
@@ -19,4 +19,26 @@ h1 {
 
 .page-container {
   padding: 10px 15px;
+}
+
+.outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 60px;
+}
+
+.inner {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+* {
+  box-sizing: border-box;
 }
