@@ -10,14 +10,23 @@ const data = require('../../../data.json');
 export class SearchPageComponent implements OnInit {
   mealList: MealData[] = [];
   mealData: MealData[] = data;
+  searchInput: string = '';
+  displayList: MealData[] = [];
 
   constructor() {}
 
   ngOnInit(): void {
     this.getMealsWithRecipes();
+    this.displayList = this.mealList;
   }
 
   getMealsWithRecipes() {
     this.mealList = this.mealData.filter((meal) => meal.HasRecipe === true);
+  }
+  searchChange(input: string) {
+    let lowerCaseInput = input.toLowerCase();
+    this.displayList = this.mealList.filter((x) =>
+      x.Name.toLowerCase().includes(lowerCaseInput)
+    );
   }
 }

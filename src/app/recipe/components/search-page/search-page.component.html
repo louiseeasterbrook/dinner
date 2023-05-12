@@ -1,5 +1,14 @@
 <div class="page-container">
-  <div *ngFor="let item of mealList" class="result">
+  <div class="input-wrapper">
+    <input
+      type="text"
+      placeholder="Search for a recipe..."
+      [(ngModel)]="searchInput"
+      (ngModelChange)="searchChange($event)"
+    />
+  </div>
+
+  <div *ngFor="let item of displayList" class="result">
     <result-bar [text]="item.Name" [id]="item.Id"></result-bar>
   </div>
 </div>
