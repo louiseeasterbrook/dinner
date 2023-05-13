@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MealData } from 'src/app/Models/mealData';
-const data = require('../../../data.json');
+import { DataService } from 'src/app/service/data.service';
 
 @Component({
   selector: 'app-search-page',
@@ -9,20 +9,17 @@ const data = require('../../../data.json');
 })
 export class SearchPageComponent implements OnInit {
   mealList: MealData[] = [];
-  mealData: MealData[] = data;
-  searchInput: string = '';
   displayList: MealData[] = [];
+  searchInput: string = '';
 
-  constructor() {}
+  constructor(private dataService: DataService) {
+    this.mealList = this.dataService.getAllRecipeData();
+  }
 
   ngOnInit(): void {
-    this.getMealsWithRecipes();
     this.displayList = this.mealList;
   }
 
-  getMealsWithRecipes() {
-    this.mealList = this.mealData.filter((meal) => meal.HasRecipe === true);
-  }
   searchChange(input: string) {
     let lowerCaseInput = input.toLowerCase();
     this.displayList = this.mealList.filter((x) =>

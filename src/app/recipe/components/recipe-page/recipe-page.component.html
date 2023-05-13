@@ -4,17 +4,21 @@
     <h3>{{ mealData.Name }}</h3>
   </div>
 
-  <div class="ing-wrapper">
-    <ul>
-      <li *ngFor="let ing of mealData?.Recipe?.Ingredients">{{ ing }}</li>
-    </ul>
+  <div *ngFor="let rec of mealData.Recipe">
+    <p *ngIf="rec.RecipeName">{{ rec.RecipeName }}</p>
+
+    <div *ngFor="let ing of rec.Ingredients">
+      <p *ngIf="ing.Title">{{ ing.Title }}</p>
+      <ul *ngIf="ing.List">
+        <li *ngFor="let ingName of ing.List">{{ ingName }}</li>
+      </ul>
+    </div>
+
+    <div *ngFor="let method of rec.Method" class="ing">
+      <p *ngIf="method.Title">{{ method.Title }}</p>
+      <ol *ngIf="method.List">
+        <li *ngFor="let ingName of method.List">{{ ingName }}</li>
+      </ol>
+    </div>
   </div>
-
-  <ol>
-    <li *ngFor="let step of mealData?.Recipe?.Steps">{{ step }}</li>
-  </ol>
-
-  <!-- <div *ngFor="let item of mealList" class="result">
-      <result-bar [text]="item.Name" [id]="item.Id"></result-bar>
-    </div> -->
 </div>

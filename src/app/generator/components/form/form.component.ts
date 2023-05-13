@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { MealData } from 'src/app/Models/mealData';
-const data = require('../../../data.json');
+import { DinnerData } from 'src/app/Models/mealData';
+import { DataService } from 'src/app/service/data.service';
 
 @Component({
   selector: 'app-form',
@@ -9,13 +9,14 @@ const data = require('../../../data.json');
 })
 export class FormComponent implements OnInit {
   amount: number = 1;
-  dinnerData: MealData[];
+  dinnerData: DinnerData[];
   masterData: string[] = [];
   total: number = 0;
   result: string[] = [];
   load: boolean = false;
-  constructor() {
-    this.dinnerData = data;
+
+  constructor(private dataService: DataService) {
+    this.dinnerData = this.dataService.getAllDinnerData();
   }
 
   ngOnInit(): void {

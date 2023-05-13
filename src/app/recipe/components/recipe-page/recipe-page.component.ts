@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { MealData } from 'src/app/Models/mealData';
 import { Location } from '@angular/common';
-const data = require('../../../data.json');
 
 import { ActivatedRoute } from '@angular/router';
+import { DataService } from 'src/app/service/data.service';
 
 @Component({
   selector: 'app-recipe-page',
@@ -12,19 +12,19 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class RecipePageComponent implements OnInit {
   mealData: MealData | null = null;
-  dataList: MealData[] = data;
 
-  constructor(private route: ActivatedRoute, private _location: Location) {}
+  constructor(
+    private route: ActivatedRoute,
+    private _location: Location,
+    private dataService: DataService
+  ) {}
 
   ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id');
-    if (id) {
-      this.getMealData(+id);
+    if (!id) {
+      return;
     }
-  }
-
-  getMealData(id: number) {
-    this.mealData = this.dataList.filter((meal) => meal.Id === id)[0] || null;
+    this.mealData = this.dataService.getRecipeDataById(+id);
   }
 
   goBack() {
